@@ -92,17 +92,17 @@
             $(this).css('animation-duration', anim_dur);
         });
 
-        // Dots Showing Number
-        var dot = $('.hero-slides .owl-dot');
-
-        dot.each(function () {
-            var dotnumber = $(this).index() + 1;
-            if (dotnumber <= 9) {
-                $(this).html('0').append(dotnumber);
-            } else {
-                $(this).html(dotnumber);
-            }
-        });
+        // // Dots Showing Number
+        // var dot = $('.hero-slides .owl-dot');
+        //
+        // dot.each(function () {
+        //     var dotnumber = $(this).index() + 1;
+        //     if (dotnumber <= 9) {
+        //         $(this).html('0').append(dotnumber);
+        //     } else {
+        //         $(this).html(dotnumber);
+        //     }
+        // });
 
         $('.testimonials-slides').owlCarousel({
             items: 3,
